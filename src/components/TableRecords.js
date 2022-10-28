@@ -54,9 +54,9 @@ const TableRecords = ({fetchurl}) => {
                 <TableCell>{data.user.lastName}</TableCell>
                 <TableCell>{data.user.email}</TableCell>
                 <TableCell>{data.location.name}</TableCell>
-                <TableCell>{data.location.name}</TableCell>
+                
               </TableRow>
-            {/* { data.location.name === "Direct-I, Andheri" ?
+            {/*
             {data.location.name === "Wadhwa - A" ? (
               <TableRow key={data._id}>
                 <TableCell>{data._id}</TableCell>
