@@ -70,8 +70,15 @@ h5{
 }
 
 .table{
-  height: 200px;
+  height: 100vh;
   overflow: scroll;  
+}
+
+.sidebar_link{
+  display: flex;
+  text-decoration: none;
+  color: black;
+
 }
 
 
