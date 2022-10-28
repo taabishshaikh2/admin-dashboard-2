@@ -40,9 +40,7 @@ const SideBar = () => {
                 expandIcon={<ExpandMoreIcon />}
                 
             > 
-                <Link className="sidebar_link" to='/' >
-                <ComputerIcon />
-                </Link>
+                
                 {item.icon}
                 {item.title}
                 
